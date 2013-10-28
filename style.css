@@ -1,0 +1,31 @@
+
+div#container {
+	width: 800px;
+	margin: 10px auto;
+}
+
+nav ul {
+	background-color: #cccccc;
+	color: #ffffff;
+	width: 800px;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+nav ul li {
+	list-style: none;
+	float: left;
+}
+
+nav ul li a {
+	display: block;
+	width: 180px;
+	background-color: #cccccc;
+	text-align: center;
+	text-decoration: none;
+	border:#ffffff solid 1px;
+}
+
+article {
+	clear: both;
+}
