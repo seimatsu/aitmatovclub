@@ -4,12 +4,32 @@ div#container {
 	margin: 10px auto;
 }
 
+header h1 {
+	font-family: 'Share Tech', sans-serif;
+
+}
+
+header h2 {
+	margin-top: -15px;
+	font-size: 1.2em;
+	color: #333333;
+}
+
 nav ul {
-	background-color: #cccccc;
 	color: #ffffff;
 	width: 800px;
+	margin-top:0px;
+	margin-bottom: 30px;
 	margin-left: 0px;
 	padding-left: 0px;
+	height: 30px;
+	background-color: #333333;
+	border-radius: 5px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#777777), color-stop(50%, #444444), color-stop(50%, #333333), to(#555555));
+	background: -webkit-linear-gradient(#777777 0%, #444444 50%, #333333 51%, #555555 100%);
+	background: -moz-linear-gradient(#777777 0%, #444444 50%, #333333 51%, #555555 100%);
+	background: -o-linear-gradient(#777777 0%, #444444 50%, #333333 51%, #555555 100%);
+	background: -ms-linear-gradient(#777777 0%, #444444 50%, #333333 51%, #555555 100%)
 }
 
 nav ul li {
@@ -19,13 +39,39 @@ nav ul li {
 
 nav ul li a {
 	display: block;
-	width: 180px;
-	background-color: #cccccc;
+	color: #ffffff;
+	width: 140px;
+	line-height: 30px;
+	font-size: 0.8em;
 	text-align: center;
 	text-decoration: none;
-	border:#ffffff solid 1px;
+	border-right:#ffffff solid 1px;
 }
 
 article {
 	clear: both;
 }
+
+section {
+	border: #cccccc solid 1px;
+	
+	padding: 10px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#cccccc));
+	background: -webkit-linear-gradient(#ffffff 0%, #cccccc 100%);
+	background: -moz-linear-gradient(#ffffff 0%, #cccccc 100%);
+	background: -o-linear-gradient(#ffffff 0%, #cccccc 100%);
+	background: -ms-linear-gradient(#ffffff 0%, #cccccc 100%);
+}
+
+section h2 {
+	font-size: 1.0em;
+}
+
+section p {
+	font-size: 0.8em;
+}
+
+
+
+
+
