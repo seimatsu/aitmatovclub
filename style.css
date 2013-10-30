@@ -1,20 +1,40 @@
+body    {  
+    background: #fff url(img/background.jpg) no-repeat fixed center top;
+    
+   }
 
+.background {
+	min-height: 100%;
+	min-width: 1024px;
+	
+	width: 100%;
+	height: auto;
+	
+	top: 0px;
+	left: 0px;
+	
+	position: fixed;
+	
+}
+/*
 div#container {
 	width: 800px;
 	margin: 10px auto;
 }
-
+*/
 header h1 {
 	font-family: 'Share Tech', sans-serif;
-
+	margin-bottom: 5px;
+	font-size: 3.0em;
+	border-bottom:#333333 solid 1px;
 }
 
 header h2 {
-	margin-top: -15px;
+	margin-top: 0px;
 	font-size: 1.2em;
 	color: #333333;
 }
-
+/*
 nav ul {
 	color: #ffffff;
 	width: 800px;
@@ -62,15 +82,25 @@ section {
 	background: -o-linear-gradient(#ffffff 0%, #cccccc 100%);
 	background: -ms-linear-gradient(#ffffff 0%, #cccccc 100%);
 }
+*/
+
+article header h1 {
+	font-size: 1.8em;
+	margin-bottom: 0px;
+}
+
+article header p {
+	font-size: 0.9em;	
+}
 
 section h2 {
-	font-size: 1.0em;
+	margin-top: 10px;
+	font-size: 1.2em;
 }
 
 section p {
-	font-size: 0.8em;
+	font-size: 0.9em;
 }
-
 
 
 

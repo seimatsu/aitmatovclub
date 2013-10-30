@@ -10,19 +10,20 @@
 		<title>日本アイトマートフ愛好会</title>
 		<link rel="stylesheet" href="css/normalize.css" />
   		<link rel="stylesheet" href="css/foundation.css" />
-		<!--link rel="stylesheet" href="style.css"-->
+		<link rel="stylesheet" href="style.css">
 		<meta name="description" content="">
 		<meta name="author" content="松下 聖">
 
 		<meta name="viewport" content="width=device-width; initial-scale=1.0">
 		<script src="js/vendor/custom.modernizr.js"></script>
-
+		<link href='http://fonts.googleapis.com/css?family=Share+Tech' rel='stylesheet' type='text/css'>
 		<link rel="shortcut icon" href="/favicon.ico">
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 	</head>
 
 	<body>
-		<div>
+			<img src="img/background.jpg" class="background">	
+
 			<header>
 				
 				<nav class="top-bar">
@@ -36,62 +37,81 @@
     <ul class="right">
       	
 						<li><a href="test.html">トップ</a></li>
-						<li><a href="about.html">このクラブについて</a></li>
+						<li><a href="about.html" data-dropdown="drop2">このクラブについて</a></li>
+						<p id="drop2" class="f-dropdown content" data-dropdown-content>
+							このクラブについて説明します。
+						</p>
 						<li><a href="event.html">イベント情報</a></li>
 						<li><a href="contact.html">連絡</a></li>
 					</ul>
 					</section>
 				</nav>
 				
-				
 				<div class="row">
+		
 					<div class="large-12 columns">
 					<hgroup>
 					<h1>Japan Aitmatov Club</h1>
 					<h2>日本アイトマートフ愛好会</h2>
 					</hgroup>
 					</div>
-					
-				</div>
+				</div>	
 			</header>
-			
 			<article>
 				<div class="row">
 				<div class="large-12 columns">
 				<header>
-					<h1>アイトマートフの紹介</h1>
 					<p>激動の20世紀ソ連を生きた、キルギスの小説家チンギス・アイトマートフについて紹介します。</p>
 				</header>
 				</div>
   					<div class="large-4 columns">
-  					<section>
+  					<section class="panel">
+					
+					<a class="th radious" href="#">
+						<img src="img/aitmatov_face.jpg">
+					</a>
 					<h2>アイトマートフの生涯</h2>
 					<p>中央アジア・キルギスの農村に生まれたアイトマートフ。少年時代には、父の粛正、第二次世界大戦を経験した。彼は、いかにして作家となったのだろうか。</p>
+					<a href="#" class="small button">もっと読む</a>
 					</section>
   					</div>
+  					
  					<div class="large-4 columns">
- 						<section>
+ 					<section class="panel">
+ 					<a class="th radious" href="#">
+						<img src="img/idolshe2.jpg">
+					</a>
 					<h2>アイトマートフの作品</h2>
 					<p>短編から長編へ。舞台はキルギスの農村から宇宙まで。バラエティに富んだアイトマートフの主要作品を紹介します。</p>
+					<a href="#" class="small button">もっと読む</a>
 					</section>
  					</div>
+ 					
   					<div class="large-4 columns">
-  						<section>
+  					<section class="panel">
+ 					<a class="th radious" href="#">
+						<img src="img/books.jpg">
+					</a>
 					<h2>アイトマートフの研究</h2>
 					<p>日本ではマイナーでも、世界的には名の知れたアイトマートフ。世界では、アイトマートフ文学はどのように見られているのだろうか。</p>
-				</section>
+					<a href="#" class="small button">もっと読む</a>
+				    </section>
 
   					</div>
 				</div>
 				</article>
 			<footer>
+				<div class="row">
+				<div class="large-12">
 				<p>
 					&copy; Copyright  by Sei MATSUSHITA
 				</p>
+				</div>
+				</div>
 			</footer>
-		</div>
 
 
+</div>
 
 <script>
   document.write('<script src=' +
